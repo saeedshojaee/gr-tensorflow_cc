@@ -19,5 +19,7 @@
 # Boston, MA 02110-1301, USA.
 
 install(FILES
-    tensorflow_cc_tf_model.xml DESTINATION share/gnuradio/grc/blocks
+    tensorflow_cc_tf_model.xml
+    tensorflow_cc_throughput_measure.xml
+    DESTINATION share/gnuradio/grc/blocks
 )
